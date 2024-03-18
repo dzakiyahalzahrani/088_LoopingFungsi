@@ -12,12 +12,12 @@ int main(){
     while(bilangan % 2) 
     {
         cout << bilangan << endl;
-        cout << "Maka bilangannya genap" << endl;
+        cout << "bilangannya ganjil" << endl;
 
         bilangan = rand() % 12;
     
     }
 
-    cout << "Bilangan" << endl;
+    cout << bilangan << endl;
     cout << "Bilangannya genap" << endl;
 }
